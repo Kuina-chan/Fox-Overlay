@@ -1,0 +1,62 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="odometr.css" />
+        <link rel="stylesheet" href="animate.css" />
+		<script src="deps/countUp.js"></script>
+		<script src="deps/reconnecting-websocket.min.js"></script>
+<script src="/lib/consts.js"></script><script src="/lib/utils.js"></script><script src="/lib/tokenTransformer.js"></script>
+        <script src="/lib/consts.js"></script><script src="/lib/utils.js"></script><script src="/lib/tokenTransformer.js"></script>
+		<script src="deps/odometr.js"></script>
+    </head>
+
+    <body>
+        <div id="bg"></div>
+        <div id="main">
+            <div id="BpmCont">
+                <div id="BPM" class="odometer bpm"></div>
+            </div>
+
+            <div id="ppCont">
+                <div id="pp_text">
+                    <span id="pp" class="odometer"></span><span> / </span><span id="ppFC" class="odometer pp"></span>
+                </div>
+            </div>
+
+            <div id="ppInGame" class="odometer pp">
+
+            </div>
+
+            <div id="grade"></div>
+
+            <div id="accInfo">
+                <div id="h100Cont">
+                    <div id="h100" class="odometer"></div>
+                </div>
+                <div id="h50Cont">
+                    <div id="h50" class="odometer"></div>
+                </div>
+                <div id="h0Cont">
+                    <div id="h0" class="odometer"></div>
+                </div>
+                <div id="hSBCont">
+                    <div id="hSB" class="odometer"></div>
+                </div>
+            </div>
+            <div id="mapCont">
+                <div id="title"></div>
+                <div id="diff"></div>
+                <div id="SR"></div>
+            </div>
+            <div id="statsCont">
+                <div id="AR"></div>
+                <div id="CS"></div>
+                <div id="HP"></div>
+                <div id="OD"></div>
+            </div>
+            <div id="modsUsed"></div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
